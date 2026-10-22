@@ -1,0 +1,115 @@
+{
+  "research_question": "Under the specified conditions, does the distribution of five-minute fixed-location temperature-drop scores differ between continuous lower-speed stirring and intermittent higher-speed stirring?",
+  "context_encoding": "plan-context-v1",
+  "landscape": {
+    "id": "c0e5337d-914e-4570-ab1a-e71d169cbb1b",
+    "items": [
+      {
+        "id": "34eb03f4-fb40-47f9-8375-57ffb7c72494",
+        "category": "finding",
+        "claim_ids": [
+          "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f"
+        ],
+        "evidence_ids": [
+          "d6563d65-252d-4100-90b9-9023d483c829"
+        ]
+      }
+    ]
+  },
+  "claims": [
+    {
+      "id": "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f",
+      "text": "Whether the distribution of five-minute fixed-location temperature-drop scores differs between continuous lower-speed stirring and intermittent higher-speed stirring remains unresolved within the source document, and no preferred direction, expected result, significance claim, or global novelty claim is supplied.",
+      "claim_type": "finding",
+      "human_grounding_status": "supported",
+      "uncertainty": "The research question is explicitly stated as unresolved; no data or results are available to address it.",
+      "evidence_for_ids": [
+        "d6563d65-252d-4100-90b9-9023d483c829"
+      ],
+      "evidence_against_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "d6563d65-252d-4100-90b9-9023d483c829",
+      "source_text": "1. Under the specified conditions, does the distribution of five-minute fixed-location temperature-drop\nscores differ between continuous lower-speed stirring and intermittent higher-speed stirring?\n2. How repeatable is the defined score across independently prepared fresh aliquots using each method?\nThese questions are unresolved within this document. They are not approved Research Gaps or selected\nHypotheses. No preferred direction, expected result, significance claim, or global novelty claim is\nsupplied.",
+      "paper_chunk_id": "218ec71e-3ed0-4de2-9a81-2e14af6316bd",
+      "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+      "paper_title": null,
+      "page_number": 11
+    }
+  ],
+  "gap": {
+    "id": "b41ee29e-3554-4ed7-899d-297f429780bf",
+    "title": "Unresolved score-distribution comparison in the supplied synthetic stirring protocol",
+    "description": "The source-defined question compares the distributions of five-minute fixed-location temperature-drop scores under continuous lower-speed stirring versus intermittent higher-speed stirring. This comparison remains unresolved within the supplied synthetic procedural document.",
+    "gap_type": "missing_comparison",
+    "why_it_matters": "This candidate restates an existing unresolved question. Its potential usefulness is as a research-design direction for human consideration within the supplied synthetic protocol, rather than proof of a newly discovered scientific gap.",
+    "uncertainty": "high",
+    "assumptions": [
+      "Implementability of the procedural specifications is an unverified planning assumption, not a source-established fact."
+    ],
+    "novelty_scope": "supplied_literature",
+    "landscape_item_ids": [
+      "34eb03f4-fb40-47f9-8375-57ffb7c72494"
+    ],
+    "claim_ids": [
+      "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f"
+    ],
+    "evidence_for_ids": [
+      "d6563d65-252d-4100-90b9-9023d483c829"
+    ],
+    "evidence_against_ids": []
+  },
+  "hypothesis": {
+    "id": "d0ab6f6b-1787-4800-8a17-0f761b23891a",
+    "statement": "Synthetic workflow demonstration conjecture, not an empirical finding: under the stated hypothetical model, the full distributions of recorded five-minute fixed-location temperature-drop scores for continuous lower-speed stirring and intermittent higher-speed stirring, conditional on jointly valid two-run blocks, have W1 distance greater than delta_demo=1 score °C. This is a nondirectional illustrative-threshold claim; it asserts no superiority, physical mechanism or scientifically justified meaningfulness.",
+    "rationale": "The cited source identifies the full score-distribution comparison between the two named methods as unresolved. It motivates this demonstration conjecture but does not establish the prediction. The human-proposed purpose is to demonstrate the provenance-preserving, human-gated workflow and support/contradiction/inconclusive logic. The illustrative threshold and mathematical model are demonstration choices, not practical equivalence, a minimum important difference, resolution-derived significance or evidence-based relevance. This qualified operational illustration does not resolve the unrestricted original question or establish a real physical effect.",
+    "independent_variable": "Compound source-named method labels: continuous lower-speed stirring (A) versus intermittent higher-speed stirring (B). Both speed and schedule remain in the contrast; no causal claim about intermittency alone is made. Labels in the hypothetical model do not verify actual method implementation.",
+    "dependent_variable": "The entire conditional recorded-score distributions F_A(s)=Pr(S_A<=s|C=1,Q_demo) and F_B(s)=Pr(S_B<=s|C=1,Q_demo), in score °C. C=1 denotes a jointly valid two-run block. Compare them using W1=integral |F_A(s)-F_B(s)| ds over the assumed model domain. This is not a mean-only comparison, a distribution of paired differences, latent physical temperature, heat loss or energy efficiency.",
+    "control_variables": [
+      "For the mathematical demonstration only, retain the same scalar five-minute fixed-location recorded-score interpretation and one score per hypothetical run-record unit; do not normalize, take absolute values, clip or average scores.",
+      "Use one fixed hypothetical joint sampling law Q_demo and fixed within-block validity-indicator rules across all attempted blocks; no real apparatus, operator, preparation, environment or measurement performance is specified or certified.",
+      "Use the fixed assumed demonstration-model score domain [-15.2,45.2] score °C, fixed illustrative threshold 1 score °C, total alpha=0.05, h=0.5 score °C and one terminal analysis after N_demo=150000 attempted blocks."
+    ],
+    "falsification_condition": "Demonstration rule only: after the fixed N_demo=150000 attempted blocks, let m be the complete jointly valid count. Failed model/record-validity gates, absent inputs or m<127891 leave the claim inconclusive. Otherwise form both empirical CDFs from the m valid scores per arm. With R=60.4 score °C and alpha_A=alpha_B=0.025, use epsilon_j=min(1,sqrt(ln(2/alpha_j)/(2m))), D_hat=integral |Fhat_A-Fhat_B| ds, E=min(R,R*(epsilon_A+epsilon_B)), L=max(0,D_hat-E), U=min(R,D_hat+E). Under the stipulated iid-block and bounded-score assumptions, the one-arm DKWM bounds plus a union bound give interval coverage at least 0.95. Support this illustrative-threshold claim when L>1 score °C; contradict it when U<=1 score °C; otherwise report inconclusive, including L=1<U. U=1 is on the contradiction side. A model-domain violation invalidates the demonstration rather than instructing exclusion of real observations. An invalid gate is not falsification, and non-rejection is not equality. Contradiction concerns W1>1 in this hypothetical conditional model, not exact equality or resolution of the unrestricted original research question. Do not extend the attempted count, switch metrics or use an outcome-selected interval rule.",
+    "assumptions": [
+      "All numeric parameters, model bounds, sampling assumptions and inference rules in this revision are proposed human demonstration design choices. delta_demo=1 score °C is arbitrary and illustrative; it has no claimed scientific or practical meaningfulness.",
+      "Q_demo is a hypothetical fixed joint probability law for two source-named run-record units, allocation/order and binary per-run record-validity indicators. Attempted block tuples are independent and identically distributed under that law; scores and validity may be dependent within a block.",
+      "Each block contains two distinct hypothetical fresh-aliquot run-record units, one allocated to each method label. Randomly assign unit identities to A/B and independently choose AB or BA order with probability 1/2, independently across blocks. These are model assumptions, not verified real sampling or causal identification.",
+      "The two binary record-validity indicators represent stipulated endpoint-valid, instrument-eligible and method-conforming status within the hypothetical model, not results of physical verification. Fixed per-block rules define C=1 exactly when both indicators are 1. The fixed joint-valid probability satisfies 0<p<1; its numeric value is not needed by the conditional rule and no perfect-yield or attainment guarantee is assumed.",
+      "All jointly valid model scores are finite and belong to the assumed illustrative domain [-15.2,45.2] score °C, whose width is 60.4 score °C. This is an assumed demonstration-model bound, not current canonical source authority, verified physical support, an approved physical endpoint rule or an instruction to filter real observations.",
+      "N_demo=150000 is an arbitrary fixed attempted-block count for arithmetic illustration, not a recommended or approved laboratory workload. The information gate requires 127891 complete jointly valid blocks, hence that many scores per arm. Incomplete blocks remain recorded but do not enter the conditional target; insufficient complete count remains inconclusive.",
+      "The planning target is h=delta_demo/2=0.5 score °C. The sufficient complete count is ceil(8*(60.4)^2*ln(80)/(1)^2)=127891 under total alpha=0.05 and equal arm split. This is precision, not power; no actual observations, yield, independent preparations or resource feasibility are established.",
+      "The claim is conditional on model validity only. No real Q, apparatus identity, instrument performance, physical conformity, empirical independence, preferred effect direction, superiority or global novelty is established. The joint-valid target does not identify an all-assigned-run or causal effect; the earlier meaningful-design references and their unresolved requirements remain historical and unchanged."
+    ],
+    "uncertainty": "high",
+    "evidence_motivating_ids": [
+      "d6563d65-252d-4100-90b9-9023d483c829"
+    ],
+    "evidence_challenging_ids": [],
+    "claim_ids": [
+      "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f"
+    ]
+  },
+  "source_roles": {
+    "hypothesis_claims": [
+      {
+        "claim_id": "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f",
+        "role": "extends"
+      }
+    ],
+    "hypothesis_evidence": [
+      {
+        "evidence_id": "d6563d65-252d-4100-90b9-9023d483c829",
+        "role": "motivates"
+      }
+    ],
+    "gap_evidence": [
+      {
+        "evidence_id": "d6563d65-252d-4100-90b9-9023d483c829",
+        "role": "supports"
+      }
+    ]
+  }
+}

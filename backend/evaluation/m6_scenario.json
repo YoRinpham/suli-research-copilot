@@ -1,0 +1,19 @@
+{
+  "scenario_id": "small-evidence-to-report-v1",
+  "task": "From a small licensed paper corpus and labeled synthetic CSV, inspect evidence, select a gap and hypothesis, analyze outcomes, review an interpretation, and prepare a report.",
+  "corpus_manifest": [
+    {"path": "assets/synthetic_pilot_a.pdf", "sha256": "29854127df8a679d367c608aff92954a32b4be9c31e7f589e355bdbc40c85eab"},
+    {"path": "assets/synthetic_pilot_b.pdf", "sha256": "c461afd5d49c92af68983bf051e185eac70847e1eb9416287e5e28125b6d10c6"}
+  ],
+  "dataset_manifest": {"path": "assets/synthetic_scores.csv", "sha256": "30f2e84c3fa621e09acc7097aef6e9ebd4f1bbd2d0de47146262acbeb6be19f7"},
+  "protocol_version": "m6-v1",
+  "stages": [
+    "evidence_identification",
+    "claim_and_landscape_review",
+    "gap_hypothesis_plan_review",
+    "dataset_preparation",
+    "deterministic_analysis_and_figure",
+    "interpretation_review",
+    "report_review"
+  ]
+}

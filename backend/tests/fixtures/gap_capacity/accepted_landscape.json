@@ -1,0 +1,115 @@
+{
+  "id": "c0e5337d-914e-4570-ab1a-e71d169cbb1b",
+  "project_id": "47a663b8-92e5-456e-bcb4-d76034201b69",
+  "summary": "A synthetic procedural specification defines two paddle-stirring methods for comparing five-minute fixed-location temperature-drop scores in 100 mL water. Method A commands continuous clockwise 30 rpm from time zero to 300 s; Method B commands clockwise 60 rpm during five nominal 30-s active intervals and stop outside those intervals. The comparison combines differences in commanded speed and stirring schedule, including uninterrupted stirring duration, and therefore does not isolate intermittency alone. The score is S = T0 − T300, using the recorded temperatures at 0.1 °C resolution. No experimental results or observed values are reported, the distributional comparison remains unresolved, and no scientific superiority is established. Interpretation must retain limitations concerning physical adherence, measurement performance and dependence across runs.",
+  "uncertainty": "The source-defined specifications are design choices; they do not establish empirical conformity or effects. Command logs and rated motor performance do not verify actual motion, and the proposed two-temperature reference check evaluates only limited agreement under its check conditions. Fresh aliquots alone do not establish independence when apparatus, sessions or preparations are shared. Allocation, run order, replication and confounding control remain human decisions unspecified by the source, which supplies no sample-size justification or results.",
+  "review_status": "accepted",
+  "reviewed_at": "2026-10-12T07:19:18.435876Z",
+  "ai_summary_assessments": null,
+  "items": [
+    {
+      "category": "finding",
+      "text": "Whether the distribution of five-minute fixed-location temperature-drop scores differs between continuous lower-speed and intermittent higher-speed stirring remains explicitly unresolved within this document; no preferred direction, expected result, significance claim or global novelty claim is supplied. This is a synthetic procedural document, not a real empirical study; no experimental results or fictional experimental observations are reported, and all numerical settings are proposed specifications rather than observed values. Water volume, apparatus geometry, initial-temperature window, environment, timing, stirring schedules, probe location and score rule are case-defining design choices, not experimental discoveries. The unresolved questions are not approved Research Gaps or selected Hypotheses.",
+      "uncertainty": "No data or results are supplied by this source to resolve the comparison. The category “finding” records the source’s unresolved status and does not turn it into an empirical result, an approved Research Gap or a selected Hypothesis.",
+      "claim_ids": [
+        "75c19471-da38-43f8-900f-5512275a45c7",
+        "f2600337-1141-4e51-a3f6-e6a5bf6d7e16",
+        "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f"
+      ],
+      "evidence_ids": [
+        "3de55311-c88e-4fde-aa86-52ea5ddd287b",
+        "d6563d65-252d-4100-90b9-9023d483c829",
+        "e1a8ea45-3cdd-4045-a654-5560ebb55c04"
+      ],
+      "id": "34eb03f4-fb40-47f9-8375-57ffb7c72494",
+      "ai_conflict_assessment": null
+    },
+    {
+      "category": "method",
+      "text": "Method A is specified as continuous clockwise paddle stirring at a commanded 30 rpm throughout the nominal interval from time zero to 300 s, with the paddle remaining immersed and not repositioned. Method B commands clockwise 60 rpm during the five nominal active intervals [0,30), [60,90), [120,150), [180,210) and [240,270), and commands stop outside those active intervals, including [270,300], with the paddle remaining immersed and in the same position throughout. These are commanded schedules, not observations establishing actual speed, physical stopping, transition duration or revolution totals. Command logs and rated motor performance do not themselves measure actual speed, transition duration or revolution totals; without suitable existing feedback, some physical adherence requirements may remain unverified. No equality of mechanical work or energy input follows from nominal rotation totals.",
+      "uncertainty": "The schedule definitions are explicit, but conformity of actual motion is unverified by commands or rated performance alone.",
+      "claim_ids": [
+        "082a9b10-3a1c-4ff7-aff2-a2e923d1a4fa",
+        "0e656b6d-6ddc-43e0-9707-f7e6d38323be",
+        "ed274f3d-3e90-42d9-8431-4459e8efa788"
+      ],
+      "evidence_ids": [
+        "4d20c0f8-fde9-49eb-a9dc-4345609d0a43",
+        "865c3a77-1d72-4143-80f2-4809a43b39c5",
+        "fb66e34e-4a58-41a0-96d7-af6692dca076"
+      ],
+      "id": "83892aac-acd6-479e-8346-718715bd9bcd",
+      "ai_conflict_assessment": null
+    },
+    {
+      "category": "method",
+      "text": "Score S = T0 − T300 uses the recorded temperatures at 0.1 °C resolution without additional transformation, normalization, absolute-value conversion, clipping or averaging. Both inputs must be finite and within 0–60 °C, with T0 additionally meeting its starting-temperature requirement; for a valid T0, S lies between T0 − 60 and T0 as input-validity bounds, not physical predictions. If either endpoint is absent, non-finite, outside its stated range or outside its timing allowance, no valid score is available; interpolation, substitution of another timestamp and imputation are prohibited. The defined construct is five-minute temperature drop at the fixed probe location, not a direct measure of total heat lost, energy efficiency or uniform bulk-water temperature. A larger recorded drop does not automatically designate a scientifically superior method. Endpoint validity, reference-check eligibility and method-adherence status must remain distinct.",
+      "uncertainty": "The score rule and validity bounds define the operational measure, while empirical measurement performance remains uncertain. A numerically valid score alone does not establish instrument eligibility or method conformity.",
+      "claim_ids": [
+        "155c6630-2f0e-416d-8304-66a546ac9ddc",
+        "54ae9869-74c3-4968-a950-c05852553592",
+        "da6dcb29-b84c-4dae-9da9-9403defdeb53",
+        "e0dbd49e-4feb-4234-beaa-4f11005bca90"
+      ],
+      "evidence_ids": [
+        "199f8bf1-9b8b-410c-8b29-4f067992b9cf",
+        "2dabbba0-24b6-4636-b389-2ff5c15f068e",
+        "476eb93d-7365-467e-b9db-d8f0ced011da",
+        "6dc5b889-cf7e-4c6b-9db0-716baca4551c",
+        "a01968ff-c672-4a51-be82-a6fb093a496b"
+      ],
+      "id": "8538d8f3-38d2-4a46-8e2d-eabddf9e14ac",
+      "ai_conflict_assessment": null
+    },
+    {
+      "category": "method",
+      "text": "T0 must be within 44.8–45.2 °C and recorded within 10 s of vessel removal from the warming bath while the paddle is stationary; that recording defines time zero. The probe tip is specified 15 ± 1 mm above the internal base and 20 ± 1 mm horizontally from the shaft axis, without touching the vessel or paddle. The probe/logger requirements are 0.1 °C reporting resolution, rated accuracy no worse than ±0.2 °C over 20–50 °C and rated 90% response time no longer than 5 s; these are specified ratings, not measured performance. The reference thermometer requires resolution of 0.1 °C or finer, documented accuracy no worse than ±0.1 °C over 20–50 °C and a dated calibration or verification record providing a documented basis for current suitability; display resolution alone is insufficient. The proposed reference check uses the task’s probe/logger configuration and the reference thermometer in well-mixed water, with sensing tips adjacent and no more than 5 mm apart, without contact with each other or the container. At each reference-temperature band, 21–23 °C and 44–46 °C, after readings settle, three paired probe/reference readings must be recorded approximately 5 s apart, spanning 10 s. Every reference reading must fall within its band, and the reference range and probe range across the three readings must each be no greater than 0.1 °C. The proposed acceptance criterion requires |probe reading − reference reading| ≤ 0.2 °C for every paired reading at both bands, with both bands satisfying the temperature-band, stability and agreement criteria. This check evaluates limited agreement under its check conditions; it does not establish absolute accuracy, response behavior during stirring, complete-range performance or measurement reliability across repeated runs. The source supplies no certificate, calibration result or verified instrument performance, and no instrument is shown to have passed this proposed check.",
+      "uncertainty": "Probe lag, calibration error, timestamp error, vessel thermal history, residual exterior moisture, ambient drift and water loss could affect recorded outcomes. Reference uncertainty and temperature differences between adjacent sensing tips remain relevant; specified ratings and a proposed agreement threshold do not resolve these limitations.",
+      "claim_ids": [
+        "047581b3-2388-444a-9065-d49cd89ce000",
+        "5ba819de-be42-4f56-b066-ab0ac18c6754",
+        "5d0918a1-bf2f-4c45-a97e-cd1b46b279cc",
+        "a60fb791-d725-45d9-90d1-fde3dbe896a0",
+        "da6dcb29-b84c-4dae-9da9-9403defdeb53",
+        "f2600337-1141-4e51-a3f6-e6a5bf6d7e16"
+      ],
+      "evidence_ids": [
+        "08e88249-dbfd-44ba-8f4f-cc37a383cc7d",
+        "2245a10f-5280-4a00-b5a7-e4c3d68a9e07",
+        "3de55311-c88e-4fde-aa86-52ea5ddd287b",
+        "476eb93d-7365-467e-b9db-d8f0ced011da",
+        "57319681-a696-4aa4-96a9-60317f89c4f1",
+        "70bc6350-f240-4372-a1a2-4593dd237f1b"
+      ],
+      "id": "d9e79dfa-693a-4d68-9970-3dec968a2547",
+      "ai_conflict_assessment": null
+    },
+    {
+      "category": "method",
+      "text": "The experimental and observation unit is one fresh water aliquot undergoing one uninterrupted five-minute run with one stirring method; within-run temperature samples are repeated measurements of that unit, not independent experimental units or independent replicates. Fresh aliquots alone do not establish independence across runs: reused apparatus, runs in the same session or shared preparations may introduce dependence. For Method A, a 30-rpm setting is a command, and a display repeating it is not necessarily an actual-speed measurement; available feedback must be recorded as measured, controller-estimated or merely the commanded setting. In the cited Method A passage, the one-second physical transition allowance—from an issued start command to speed within ±2 rpm of target, or an issued stop command to a stationary paddle—is distinct from command-boundary timing. One allowance must not be reported as verification of the other; acceleration and deceleration mean physical motion need not coincide exactly with the nominal active interval.",
+      "uncertainty": "The unit and Method A timing definitions are explicit, but neither statistical independence nor physical adherence follows from those definitions alone. Apparatus reuse, allocation, run order, replication and confounding control require human study-level decisions that the source does not supply.",
+      "claim_ids": [
+        "331741e8-b4f4-4a15-a2e2-b9a6b658c24d",
+        "45d27dff-9842-4ec6-b8e4-23495db6ca53",
+        "dd6ad5be-0260-466f-b3dc-24f973d0b7fc",
+        "ed274f3d-3e90-42d9-8431-4459e8efa788",
+        "fb2b9f13-d30b-4b79-9f16-e9f9f8bb1fcc"
+      ],
+      "evidence_ids": [
+        "865c3a77-1d72-4143-80f2-4809a43b39c5",
+        "94ad89c6-c3ef-4f33-bf18-cdbd74159f8b",
+        "a1cbfd08-f8c1-4145-926c-66ce1bcfb957",
+        "a3490e95-b640-4b45-bb76-e3f1bfd1ea85",
+        "cbb14912-3b28-4a5e-bfcd-73a326f5d5bb"
+      ],
+      "id": "3baece83-e63d-42ee-a005-98b44f32bf42",
+      "ai_conflict_assessment": null
+    }
+  ],
+  "question_revision": 1,
+  "supersedes_id": "868ca0df-4e25-4d6d-8995-c5989bcdd89c",
+  "generation_run_id": null,
+  "origin": "human_revision",
+  "eligible_for_downstream": true,
+  "created_at": "2026-10-12T07:03:58.303446Z"
+}

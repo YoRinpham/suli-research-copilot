@@ -1,0 +1,20 @@
+.env
+.env.local
+.env.*.local
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+postgres_data/
+pgdata/
+data/
+.DS_Store
+# Local M6 benchmark measurements and generated reports
+backend/evaluation/*-session.json
+backend/evaluation/benchmark-result.json
+backend/evaluation/benchmark-result.md

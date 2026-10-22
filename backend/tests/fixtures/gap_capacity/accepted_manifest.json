@@ -1,0 +1,558 @@
+[
+  {
+    "type": "landscape",
+    "id": "c0e5337d-914e-4570-ab1a-e71d169cbb1b",
+    "summary_hash": "5b0c770fb53c14f495636c6f11bf40e8a910127de475969f2da2d8202b7ee845",
+    "uncertainty_hash": "17eca05609068d5b6a1e77095a49edadb0642134bec4d77a2509b58754bc7a5a",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-12T07:19:18.435876+00:00"
+  },
+  {
+    "type": "landscape_item",
+    "id": "34eb03f4-fb40-47f9-8375-57ffb7c72494",
+    "content_hash": "c2a93b3a29964cb7fdb09315220c4008c05963e48a72f32fa908f78cef50ee91",
+    "claim_ids": [
+      "75c19471-da38-43f8-900f-5512275a45c7",
+      "f2600337-1141-4e51-a3f6-e6a5bf6d7e16",
+      "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f"
+    ],
+    "evidence_ids": [
+      "3de55311-c88e-4fde-aa86-52ea5ddd287b",
+      "d6563d65-252d-4100-90b9-9023d483c829",
+      "e1a8ea45-3cdd-4045-a654-5560ebb55c04"
+    ]
+  },
+  {
+    "type": "landscape_item",
+    "id": "3baece83-e63d-42ee-a005-98b44f32bf42",
+    "content_hash": "88030fc8897a6dd17ffa2c758d603c5c05153c9b10a0b37acd01536327963cf0",
+    "claim_ids": [
+      "331741e8-b4f4-4a15-a2e2-b9a6b658c24d",
+      "45d27dff-9842-4ec6-b8e4-23495db6ca53",
+      "dd6ad5be-0260-466f-b3dc-24f973d0b7fc",
+      "ed274f3d-3e90-42d9-8431-4459e8efa788",
+      "fb2b9f13-d30b-4b79-9f16-e9f9f8bb1fcc"
+    ],
+    "evidence_ids": [
+      "865c3a77-1d72-4143-80f2-4809a43b39c5",
+      "94ad89c6-c3ef-4f33-bf18-cdbd74159f8b",
+      "a1cbfd08-f8c1-4145-926c-66ce1bcfb957",
+      "a3490e95-b640-4b45-bb76-e3f1bfd1ea85",
+      "cbb14912-3b28-4a5e-bfcd-73a326f5d5bb"
+    ]
+  },
+  {
+    "type": "landscape_item",
+    "id": "83892aac-acd6-479e-8346-718715bd9bcd",
+    "content_hash": "cde7fca5acd613a7f4fec5367ef2de7d757204f72f4385d2bb5fdca63993315c",
+    "claim_ids": [
+      "082a9b10-3a1c-4ff7-aff2-a2e923d1a4fa",
+      "0e656b6d-6ddc-43e0-9707-f7e6d38323be",
+      "ed274f3d-3e90-42d9-8431-4459e8efa788"
+    ],
+    "evidence_ids": [
+      "4d20c0f8-fde9-49eb-a9dc-4345609d0a43",
+      "865c3a77-1d72-4143-80f2-4809a43b39c5",
+      "fb66e34e-4a58-41a0-96d7-af6692dca076"
+    ]
+  },
+  {
+    "type": "landscape_item",
+    "id": "8538d8f3-38d2-4a46-8e2d-eabddf9e14ac",
+    "content_hash": "0c0c2710d03717cfc55c64dfd9b194a3e2114aa25ff81faef58f2cf4c7f9b8b8",
+    "claim_ids": [
+      "155c6630-2f0e-416d-8304-66a546ac9ddc",
+      "54ae9869-74c3-4968-a950-c05852553592",
+      "da6dcb29-b84c-4dae-9da9-9403defdeb53",
+      "e0dbd49e-4feb-4234-beaa-4f11005bca90"
+    ],
+    "evidence_ids": [
+      "199f8bf1-9b8b-410c-8b29-4f067992b9cf",
+      "2dabbba0-24b6-4636-b389-2ff5c15f068e",
+      "476eb93d-7365-467e-b9db-d8f0ced011da",
+      "6dc5b889-cf7e-4c6b-9db0-716baca4551c",
+      "a01968ff-c672-4a51-be82-a6fb093a496b"
+    ]
+  },
+  {
+    "type": "landscape_item",
+    "id": "d9e79dfa-693a-4d68-9970-3dec968a2547",
+    "content_hash": "8a2d8cca380ed656d4afb682acc88453d2b496fadc812c5da637a24dfda7627a",
+    "claim_ids": [
+      "047581b3-2388-444a-9065-d49cd89ce000",
+      "5ba819de-be42-4f56-b066-ab0ac18c6754",
+      "5d0918a1-bf2f-4c45-a97e-cd1b46b279cc",
+      "a60fb791-d725-45d9-90d1-fde3dbe896a0",
+      "da6dcb29-b84c-4dae-9da9-9403defdeb53",
+      "f2600337-1141-4e51-a3f6-e6a5bf6d7e16"
+    ],
+    "evidence_ids": [
+      "08e88249-dbfd-44ba-8f4f-cc37a383cc7d",
+      "2245a10f-5280-4a00-b5a7-e4c3d68a9e07",
+      "3de55311-c88e-4fde-aa86-52ea5ddd287b",
+      "476eb93d-7365-467e-b9db-d8f0ced011da",
+      "57319681-a696-4aa4-96a9-60317f89c4f1",
+      "70bc6350-f240-4372-a1a2-4593dd237f1b"
+    ]
+  },
+  {
+    "type": "claim",
+    "id": "047581b3-2388-444a-9065-d49cd89ce000",
+    "content_hash": "17390eff80d2de82584f9c5e2aa7852465457e428cb5d92082bce29249583641",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.502510+00:00",
+    "evidence_ids": [
+      "70bc6350-f240-4372-a1a2-4593dd237f1b"
+    ],
+    "evidence_for_ids": [
+      "70bc6350-f240-4372-a1a2-4593dd237f1b"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "082a9b10-3a1c-4ff7-aff2-a2e923d1a4fa",
+    "content_hash": "fa14d05956fc7f1273e9876f8c61b9a37c2a4afa81333bc879affa6cc33a3810",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.635920+00:00",
+    "evidence_ids": [
+      "fb66e34e-4a58-41a0-96d7-af6692dca076"
+    ],
+    "evidence_for_ids": [
+      "fb66e34e-4a58-41a0-96d7-af6692dca076"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "0e656b6d-6ddc-43e0-9707-f7e6d38323be",
+    "content_hash": "5c4e15309f6392364f199d8a24371852f05653879d69adb675b13abe57f7ec9a",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.770945+00:00",
+    "evidence_ids": [
+      "4d20c0f8-fde9-49eb-a9dc-4345609d0a43"
+    ],
+    "evidence_for_ids": [
+      "4d20c0f8-fde9-49eb-a9dc-4345609d0a43"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "155c6630-2f0e-416d-8304-66a546ac9ddc",
+    "content_hash": "bc22410c981ce2be3d460c5d55191ff980f4f3a59b23c11d0c7eef0021a6db52",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.955376+00:00",
+    "evidence_ids": [
+      "2dabbba0-24b6-4636-b389-2ff5c15f068e"
+    ],
+    "evidence_for_ids": [
+      "2dabbba0-24b6-4636-b389-2ff5c15f068e"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "331741e8-b4f4-4a15-a2e2-b9a6b658c24d",
+    "content_hash": "3d02333839e8feaabab096f51e69d4ee22df6a4534f6b374c65b8349b494c58a",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.724539+00:00",
+    "evidence_ids": [
+      "a3490e95-b640-4b45-bb76-e3f1bfd1ea85"
+    ],
+    "evidence_for_ids": [
+      "a3490e95-b640-4b45-bb76-e3f1bfd1ea85"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "45d27dff-9842-4ec6-b8e4-23495db6ca53",
+    "content_hash": "5aab48a013645fda2b22cccd9ea2b5d6a74f6eeeb9d03d17036d536af93a6cb1",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.679850+00:00",
+    "evidence_ids": [
+      "a1cbfd08-f8c1-4145-926c-66ce1bcfb957"
+    ],
+    "evidence_for_ids": [
+      "a1cbfd08-f8c1-4145-926c-66ce1bcfb957"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "54ae9869-74c3-4968-a950-c05852553592",
+    "content_hash": "924749434c66ebe127a26b9e4243f6074e37e752ad4ac3c6aac8f3f6f5d677ea",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.814798+00:00",
+    "evidence_ids": [
+      "199f8bf1-9b8b-410c-8b29-4f067992b9cf",
+      "a01968ff-c672-4a51-be82-a6fb093a496b"
+    ],
+    "evidence_for_ids": [
+      "199f8bf1-9b8b-410c-8b29-4f067992b9cf",
+      "a01968ff-c672-4a51-be82-a6fb093a496b"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "5ba819de-be42-4f56-b066-ab0ac18c6754",
+    "content_hash": "7d63b420eefeef1834e630ab4d2e37beaf0c5555688f43cea4fa3c344df2c2c7",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.864240+00:00",
+    "evidence_ids": [
+      "57319681-a696-4aa4-96a9-60317f89c4f1"
+    ],
+    "evidence_for_ids": [
+      "57319681-a696-4aa4-96a9-60317f89c4f1"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "5d0918a1-bf2f-4c45-a97e-cd1b46b279cc",
+    "content_hash": "53edb68af9c436ffaf82c6285ee5c5ac87a3adfda302d2f3c28538ebc8d1988f",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.545733+00:00",
+    "evidence_ids": [
+      "08e88249-dbfd-44ba-8f4f-cc37a383cc7d"
+    ],
+    "evidence_for_ids": [
+      "08e88249-dbfd-44ba-8f4f-cc37a383cc7d"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "75c19471-da38-43f8-900f-5512275a45c7",
+    "content_hash": "a7277ff3f423a962d573efa35e72585aa9766b7b5e416e95f97c01cd05f35afd",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:53.149284+00:00",
+    "evidence_ids": [
+      "e1a8ea45-3cdd-4045-a654-5560ebb55c04"
+    ],
+    "evidence_for_ids": [
+      "e1a8ea45-3cdd-4045-a654-5560ebb55c04"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "a60fb791-d725-45d9-90d1-fde3dbe896a0",
+    "content_hash": "5039af516cfc735a17316c25a1837aeb5bd790aa4fcfbf2693abad1a25965d43",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.591701+00:00",
+    "evidence_ids": [
+      "2245a10f-5280-4a00-b5a7-e4c3d68a9e07"
+    ],
+    "evidence_for_ids": [
+      "2245a10f-5280-4a00-b5a7-e4c3d68a9e07"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "da6dcb29-b84c-4dae-9da9-9403defdeb53",
+    "content_hash": "6a45c7eab55e23414da9617e77f3159f47a4b776945a4b7ea198a742ff5cc2bf",
+    "claim_type": "limitation",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:53.001901+00:00",
+    "evidence_ids": [
+      "476eb93d-7365-467e-b9db-d8f0ced011da"
+    ],
+    "evidence_for_ids": [
+      "476eb93d-7365-467e-b9db-d8f0ced011da"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "dd6ad5be-0260-466f-b3dc-24f973d0b7fc",
+    "content_hash": "345b10c65a1159c09087769f2ab1c7170cd1981487d75626ee5244aee77cbec6",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.457273+00:00",
+    "evidence_ids": [
+      "cbb14912-3b28-4a5e-bfcd-73a326f5d5bb"
+    ],
+    "evidence_for_ids": [
+      "cbb14912-3b28-4a5e-bfcd-73a326f5d5bb"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "e0dbd49e-4feb-4234-beaa-4f11005bca90",
+    "content_hash": "4e8c92b9a0d47a226e209294542c22407a5737ab2f8ffd7d803b781316dd1a29",
+    "claim_type": "method",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.909677+00:00",
+    "evidence_ids": [
+      "6dc5b889-cf7e-4c6b-9db0-716baca4551c"
+    ],
+    "evidence_for_ids": [
+      "6dc5b889-cf7e-4c6b-9db0-716baca4551c"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "ed274f3d-3e90-42d9-8431-4459e8efa788",
+    "content_hash": "8aef7687e795d49520146f77faa40b8e1d6bc50671cd2e4a3c49b77332de4500",
+    "claim_type": "limitation",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:53.050654+00:00",
+    "evidence_ids": [
+      "865c3a77-1d72-4143-80f2-4809a43b39c5"
+    ],
+    "evidence_for_ids": [
+      "865c3a77-1d72-4143-80f2-4809a43b39c5"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "f2600337-1141-4e51-a3f6-e6a5bf6d7e16",
+    "content_hash": "1c1efe483817327f26ec0fca6bbffa552e3d887e365490b0edeecbf45e230f5b",
+    "claim_type": "limitation",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:52.405234+00:00",
+    "evidence_ids": [
+      "3de55311-c88e-4fde-aa86-52ea5ddd287b"
+    ],
+    "evidence_for_ids": [
+      "3de55311-c88e-4fde-aa86-52ea5ddd287b"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "f6ed05bc-785d-4ab8-8c47-6c2181ddc70f",
+    "content_hash": "02ffa76d7ca4798761ac21fd0c6c36b11f3f4cae43620c44dba87411c1c0441f",
+    "claim_type": "finding",
+    "uncertainty_hash": "073599d3428d70e632be793b6515da0838fee60c08363c8b28945cf9fa7150d5",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:53.244223+00:00",
+    "evidence_ids": [
+      "d6563d65-252d-4100-90b9-9023d483c829"
+    ],
+    "evidence_for_ids": [
+      "d6563d65-252d-4100-90b9-9023d483c829"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "claim",
+    "id": "fb2b9f13-d30b-4b79-9f16-e9f9f8bb1fcc",
+    "content_hash": "8b14a1724b757a9aae805ec2c0410efd35b5101d4795b60972b7769c066a4046",
+    "claim_type": "limitation",
+    "uncertainty_hash": "43069652cc7c37639ee5a866077610099047ac2baaba0571ef290f6015a18360",
+    "selection_status": "selected",
+    "human_grounding_status": "supported",
+    "human_reviewed_at": "2026-10-08T15:38:53.105064+00:00",
+    "evidence_ids": [
+      "94ad89c6-c3ef-4f33-bf18-cdbd74159f8b"
+    ],
+    "evidence_for_ids": [
+      "94ad89c6-c3ef-4f33-bf18-cdbd74159f8b"
+    ],
+    "evidence_against_ids": []
+  },
+  {
+    "type": "evidence",
+    "id": "08e88249-dbfd-44ba-8f4f-cc37a383cc7d",
+    "source_hash": "4e41e4e9305b87df5bf3bc8ad6406b0a1671b30225dcb3a608bff3bf683b6937",
+    "paper_chunk_id": "1d50361c-faeb-4bb0-9f48-b6d79e815957",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 3
+  },
+  {
+    "type": "evidence",
+    "id": "199f8bf1-9b8b-410c-8b29-4f067992b9cf",
+    "source_hash": "b64d1ce788a064d86d5d055f96d298cf695654ebd7f574e486247fc71341cdd0",
+    "paper_chunk_id": "4bf2e9b3-3710-4294-8d1e-cdc2db792827",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 8
+  },
+  {
+    "type": "evidence",
+    "id": "2245a10f-5280-4a00-b5a7-e4c3d68a9e07",
+    "source_hash": "8deda866ab153d1d2a89ba2480afab4357a8f09029dcada93c2cb7af74d5a6e7",
+    "paper_chunk_id": "2da9ff19-0d70-42e1-9789-57d55662f850",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 2
+  },
+  {
+    "type": "evidence",
+    "id": "2dabbba0-24b6-4636-b389-2ff5c15f068e",
+    "source_hash": "02157cbaa7b4deef952acd4a11efba75aaffab8eafd785d58c5e5fb29286c6e8",
+    "paper_chunk_id": "e406201a-abaa-434b-af6c-7cfc22f4a512",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 8
+  },
+  {
+    "type": "evidence",
+    "id": "3de55311-c88e-4fde-aa86-52ea5ddd287b",
+    "source_hash": "7d9b9a4f9383cf6fd851997da00286f9dcfe40b4c72a5b0c34311fed05a8af01",
+    "paper_chunk_id": "384d225a-0f42-4336-bb73-4f550f4f0464",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 1
+  },
+  {
+    "type": "evidence",
+    "id": "476eb93d-7365-467e-b9db-d8f0ced011da",
+    "source_hash": "f822eaa404e0fa7b86e2665263e5d13348afb610ef7777e85a7d599408f68055",
+    "paper_chunk_id": "1e67d902-829e-4aee-bf79-ce4a7a79b723",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 10
+  },
+  {
+    "type": "evidence",
+    "id": "4d20c0f8-fde9-49eb-a9dc-4345609d0a43",
+    "source_hash": "7e11e90d2d843e227921b3131a34e2b34829b6221bc2fb6a4fd80523b4726773",
+    "paper_chunk_id": "e72eb0a7-5ae4-4249-a80b-da28d16339f5",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 7
+  },
+  {
+    "type": "evidence",
+    "id": "57319681-a696-4aa4-96a9-60317f89c4f1",
+    "source_hash": "418b3bcac9c19f026fdfd1b3a33c259df38d784e2d6c8eac85aab6a1e984aabe",
+    "paper_chunk_id": "f7b1704a-db51-4bc3-b3d9-8aba9e64066d",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 3
+  },
+  {
+    "type": "evidence",
+    "id": "6dc5b889-cf7e-4c6b-9db0-716baca4551c",
+    "source_hash": "46d4339f0a44cbaaf4d810ebb70fd161ff44fc308a91cd70b362a9c2cbd24f58",
+    "paper_chunk_id": "f1f39244-c04a-4485-928a-312c41d1c32e",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 8
+  },
+  {
+    "type": "evidence",
+    "id": "70bc6350-f240-4372-a1a2-4593dd237f1b",
+    "source_hash": "f3cc88a4837236a46c46f9cfff6bc47c885ca6579687b855bb20410e768bf7da",
+    "paper_chunk_id": "7a4f6369-e67e-4ba5-a289-9e45dfd8c94b",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 2
+  },
+  {
+    "type": "evidence",
+    "id": "865c3a77-1d72-4143-80f2-4809a43b39c5",
+    "source_hash": "efb47ae10f2c9b91dafd44dcab4b14a7900133b87500d4d484acd1160598dd2f",
+    "paper_chunk_id": "a891bf14-f4ef-4ee5-9b67-bb9b968b8997",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 10
+  },
+  {
+    "type": "evidence",
+    "id": "94ad89c6-c3ef-4f33-bf18-cdbd74159f8b",
+    "source_hash": "541c1f9daec978dd2734b4f271d5e04fa2609bf941c81604b9ead93214abc891",
+    "paper_chunk_id": "059cac6c-989e-4dd5-a968-77b36ef945f5",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 10
+  },
+  {
+    "type": "evidence",
+    "id": "a01968ff-c672-4a51-be82-a6fb093a496b",
+    "source_hash": "d5491369ae248b1edb7ed7ef5cd61896a0d1f82faf222f5181c3cb2356bdcdc2",
+    "paper_chunk_id": "d3d1b3f7-0eef-42d8-bbf9-f0e8eb153f66",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 8
+  },
+  {
+    "type": "evidence",
+    "id": "a1cbfd08-f8c1-4145-926c-66ce1bcfb957",
+    "source_hash": "d90ed91e1d6967daf0815febb49686f64bc8f54eae994dd324205b61c3a68c46",
+    "paper_chunk_id": "df096ec9-ad8d-45e1-ba87-9ac78403df4b",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 5
+  },
+  {
+    "type": "evidence",
+    "id": "a3490e95-b640-4b45-bb76-e3f1bfd1ea85",
+    "source_hash": "6eed5f4c2e0754507812e15816aeaec18a7e27209f054a1bb99c5e6423d6b95e",
+    "paper_chunk_id": "04f5d5fc-c661-4ed4-8443-884d80c8eb36",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 5
+  },
+  {
+    "type": "evidence",
+    "id": "cbb14912-3b28-4a5e-bfcd-73a326f5d5bb",
+    "source_hash": "449c4df08adf9deeafda44582b236d103a4b21cfe78c076d4b5bb570fb3cb223",
+    "paper_chunk_id": "9c1d78ea-5235-4fb4-a3d1-02c41bbb9eaf",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 2
+  },
+  {
+    "type": "evidence",
+    "id": "d6563d65-252d-4100-90b9-9023d483c829",
+    "source_hash": "8dbede498886f204f2031997683199ab48aa30ab80ef78e07fb49d5aad924b03",
+    "paper_chunk_id": "218ec71e-3ed0-4de2-9a81-2e14af6316bd",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 11
+  },
+  {
+    "type": "evidence",
+    "id": "e1a8ea45-3cdd-4045-a654-5560ebb55c04",
+    "source_hash": "8cab6303b6315ff712e7526a9ff2f65ed65fa26d2ddaf9dcdad869826401c6f4",
+    "paper_chunk_id": "7999510b-0579-4cd4-83c2-f83a64e4208f",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 9
+  },
+  {
+    "type": "evidence",
+    "id": "fb66e34e-4a58-41a0-96d7-af6692dca076",
+    "source_hash": "6c8a9918276383c5262f727beebacc2589993069a917f155193b49c1caa7e832",
+    "paper_chunk_id": "800647dc-55e1-477e-bfbc-10f81bfab43f",
+    "paper_id": "1483163c-2d2f-4d0f-be72-dcb777b95fd5",
+    "page_number": 5
+  }
+]

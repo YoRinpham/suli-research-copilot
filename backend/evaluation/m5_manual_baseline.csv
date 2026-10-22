@@ -1,0 +1,6 @@
+scenario_id,step,started_at_utc,completed_at_utc,operator_notes
+synthetic_two_group,inspect_csv,,,
+synthetic_two_group,document_cleaning_decision,,,
+synthetic_two_group,run_preselected_statistics,,,
+synthetic_two_group,make_figure,,,
+synthetic_two_group,interpret_and_review,,,
