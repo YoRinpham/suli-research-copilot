@@ -1,10 +1,10 @@
 # 溯理 SULI
 
-溯理（SULI）是以可追溯证据为基础的科研工作台，连接文献、证据、研究方向、实验与报告。“溯”指追溯来源，“理”指梳理线索与推演假设。
+溯理（SULI）是以可追溯证据为基础的科研工作台，连接文献、证据、研究方向、实验与报告。
 
 SULI is an evidence-to-experiment research workspace. M6 presents the existing, human-reviewed scientific chain as an immutable report, adds factual workflow timing, and provides a reproducible synthetic demonstration. Qwen drafts source-bound prose; stored StatisticalResults, real FigureArtifacts, provenance, and human review remain authoritative.
 
-正式产品名称为「溯理」，英文标识为 `SULI`，界面统一展示「溯理 SULI」。仓库目录、包名、数据库名、`research_copilot` 测量模式及现有 JSON 字段继续沿用原有技术标识，兼容已有环境与测量记录。
+仓库目录、包名、数据库名、`research_copilot` 测量模式及现有 JSON 字段继续沿用原有技术标识，兼容已有环境与测量记录。
 
 ## Prerequisites
 
